@@ -1,0 +1,51 @@
+@import url(tailwindcss);
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+@media  screen and  (max-width:576px) {
+
+    
+}
+.container>* {
+     border-radius: 40px;
+     background-color: #351165;
+     padding: 30px;
+     color: white;
+     
+ }
+ #headphone{
+    grid-area: headphone;
+ }
+ #mobile{
+    grid-area: mobile;
+ }
+ #global{
+    grid-area: global;
+ }
+#strike{
+    grid-area: strike;
+ }
+  #book{
+    grid-area: book;
+ }
+ .container{
+    margin-top: 30px;
+    gap: 20px;
+    display: grid;
+    grid-template-areas: 
+    "headphone mobile mobile"
+    "headphone global global"
+    "strike strike book"
+    ;
+
+ }
+ @media screen and (max-width:800px) {
+    .container{display: flex;
+    flex-direction: column;}
+    
+ }
+
+

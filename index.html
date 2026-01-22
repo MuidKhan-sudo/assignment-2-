@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ass2.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+
+<body class="inter box-border m-0 p-0 ">
+    <header>
+        <nav
+            class="flex justify-between px-[15%] py-[1.5%] bg-[#1A0B2E] text-white items-center border-b-[#412567] border-b-1 ">
+
+            <h1 class="text-4xl font-bold ">Tech<span
+                    class="bg-linear-to-tr from-yellow-500 via-pink-500 to-purple-800 bg-clip-text text-transparent ">Wave</span>
+            </h1>
+
+
+            <ul class="sm:flex hidden gap-10">
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
+            </ul>
+
+
+            <button
+                class="md:flex hidden justify-center items-center bg-linear-to-tr from-yellow-500 via-pink-500 to-purple-800 rounded-[10000px] py-[8px] px-[16px] gap-[4px] ">
+                Subscribe
+                <img src="ArrowRight.png" alt="">
+            </button>
+            <div class="md:hidden">
+                <img src="hamburger-menu.png" alt="">
+            </div>
+
+        </nav>
+    </header>
+    <section class="bg-[url(hero-bg.png)]  bg-center bg-no-repeat flex justify-center flex-col items-center">
+
+
+        <div
+            class="items-center bg-[url(hero-circle.png)] bg-no-repeat size-[350px] bg-center flex justify-center mt-15">
+            <img src="microphone.png" alt="">
+            <img src="Frame 2087326323.png" alt="" class="absolute top-[24%] left-[56%] animate-spin ">
+
+        </div>
+        <div class="mt-8">
+            <h1 class="text-5xl font-extrabold text-center text-white">TechWave</h1>
+            <p class="text-white text-center mt-3">Your daily dose of tech insights, productivity hacks, and personal
+                growth</p>
+        </div>
+        <div class="flex mt-7 gap-3">
+            <button
+                class="text-white bg-linear-to-tr from-yellow-500 via-pink-500 to-purple-800 rounded-[10000px] py-[10px] px-[20px] gap-[8px] flex justify-center items-center "><img
+                    src="line-md_spotify.png" alt="">Listen on Spotify</button>
+            <button
+                class="text-green-700 rounded-[10000px] py-[10px] px-[20px] border-[2px] flex justify-center items-center gap-3"><img
+                    src="message.png" alt="">Subscribe</button>
+        </div>
+    </section>
+    <section class="bg-[#1A0B2E]">
+        <div class="pb-28 pt-32 px-32 border-b border-b-[#412567]">
+            <h2 class="text-[48px] font-bold text-center text-white ">About the Podcast</h2>
+            <p class="text-center text-white">TechWave is your go-to podcast for staying ahead in the fast-paced world
+                of technology.
+                We break down complex topics into digestible insights, explore productivity strategies that actually
+                work,
+                and share stories of personal growth from industry leaders.</p><br>
+            <p class="text-center text-white">Join thousands of young professionals and tech enthusiasts who start their
+                day with TechWave.</p>
+
+        </div>
+        <div class="md:flex justify-between py-28 px-48">
+            <div>
+                <h1 class="text-[#00FF88] font-black text-[3rem] text-center">150K+</h1>
+                <p class="text-white text-center">MONTHLY LISTENERS</p>
+            </div>
+            <div>
+                <h1 class="text-[#00FF88] font-black text-[3rem] text-center">200+</h1>
+                <p class="text-white text-center">EPISODES PUBLISHED</p>
+            </div>
+            <div>
+                <h1 class="text-[#00FF88] font-black text-[3rem] text-center">4.9★</h1>
+                <p class="text-white text-center">AVERAGE RATING</p>
+            </div>
+            <div>
+                <h1 class="text-[#00FF88] font-black text-[3rem] text-center">50+</h1>
+                <p class="text-white text-center">INDUSTRY EXPERTS</p>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="px-44 py-28 bg-[#230E3D]">
+        <h1 class="text-center font-bold text-5xl text-white">Why Choose TechWave</h1>
+        <div class="container">
+            <div id="headphone"><img src="headphone.png" alt="" >
+                <h1 class="font-bold text-[1.5rem] text-white">Premium Audio Quality</h1>
+                <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                    engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div id="mobile" ><img src="device.png" alt="">
+                <h1 class="font-bold text-[1.5rem] text-white">Mobile Friendly</h1>
+                <p>Listen on the go with seamless mobile experience and offline downloads.</p>
+            </div>
+            <div id="global"><img src="location.png" alt="">
+                <h1 class="font-bold text-[1.5rem] text-white">Global Community</h1>
+                <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+            </div>
+                      <div id="strike"><img src="Icon (Stroke).png" alt="">
+                <h1 class="font-bold text-[1.5rem] text-white">Exclusive Interviews</h1>
+                <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
+                    exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and
+                    success strategies.</p>
+            </div>
+            <div id="book"><img src="resource.png" alt="">
+                <h1 class="font-bold text-[1.5rem] text-white">Rich Resources</h1>
+                <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
+            </div>
+  
+        </div>
+    </section>
+    <!-- vedio section -->
+
+    <section>
+        <h1 class="font-bold text-5xl text-center">Featured Episodes </h1>
+        <div>
+            <div><iframe src="" frameborder="0"></iframe></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+
+</body>
+
+</html>
